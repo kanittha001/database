@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Web App </title>
+</head>
+
+<body>
+    <form action="save_emp_data.php" method="post">
+<div>
+<lable>รหัสพนักงาน</lable> 
+<input type = "text" name ="empno" placeholder = "Employee ID">
+</div>
+
+<div>
+<lable>ชื่อหนักงาน</lable> 
+<input type = "text" name ="ename" placeholder = "Employee Name">
+</div>
+
+<div>
+<lable>ตำแหน่ง</lable> 
+<input type = "text" name ="job" placeholder = "JOB">
+</div>
+
+<div>
+<lable>รหัสหัวหน้า</lable> 
+<input type = "text" name ="mgr" placeholder = "Manager ID">
+</div>
+
+<div>
+<lable>วันที่เริ่มงาน</lable> 
+<input type = "date" name ="hiredate" placeholder = "Hire Date">
+</div>
+
+<div>
+<lable>เงินเดือน</lable> 
+<input type = "number" name ="salary" placeholder = "Salary">
+</div>
+
+<div>
+<lable>ค่าคอมมิชชัน</lable> 
+<input type = "number" name ="comm" placeholder = "commission">
+</div>
+
+<div>
+<lable>แผนก</lable> 
+<input type = "text" name ="deptno" placeholder = "Department ID">
+</div>
+
+<div>
+<input type="submit" value="บันทึกรายการ">
+</div>
+<form>
+</body>
+
+</html>

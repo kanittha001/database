@@ -19,14 +19,16 @@ $result = mysqli_query($conn, $sql);
 
 <head>
     <meta charset="utf-8">
-    <title> HTML5 เบื้องต้น </title>
+    <title> Web App </title>
     <!--My name is Kanittha-->
 </head>
 
 <body>
-    <div>
+    
         <h1> Hello World </h1>
-    </div>
+        <button onclick = "indow.location.harf = 'insert_emp_form.html';"> บันทึกข้อมูลพนักงาน </button>
+        <a href="Insert_emp_form.php">บันทึกข้อมูลพนักงาน</a> 
+
     <table border="1">
         <tr>
             <th> รหัสพนักงาน </th>
